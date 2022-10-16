@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/libmount",
+                "/usr/include/blkid",
+                "/usr/include/PackageKit",
+                "/usr/include/glib-2.0",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "compilerArgs": [
+                "-lgio-2.0",
+                "-lpackagekit-glib2 ",
+                "-lgobject-2.0 ",
+                "-lglib-2.0 ",
+                "-lsqlite3"
+            ]
+        }
+    ],
+    "version": 4
+}
